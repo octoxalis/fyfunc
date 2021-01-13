@@ -1,5 +1,5 @@
-const FS_o = require( 'fs-extra' )
 const SHA_o = require( 'sharp' )
+const FS_o = require( 'fs-extra' )
 
 exports.handler =
   async event =>
