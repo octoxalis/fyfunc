@@ -1,0 +1,2 @@
+# fyfunc
+Netlify functions boilerplate
