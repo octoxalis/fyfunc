@@ -1,11 +1,11 @@
-const SHA_o = require( 'jimp' )
+const JIM_o = require( 'jimp' )
 
 exports.handler =
   async event =>
   {
     //~~const param_s = event.queryStringParameters.param_s
     const jimp_s =
-      SHA_o
+      JIM_o
         ?
         'OK 😀'
         :
