@@ -2,3 +2,7 @@
 [build]
   command = "npm run build"
   functions = ".netlify/functions/"
+
+# Sharp recommanded Node version for AWS
+[context.production]
+  environment = { NODE_VERSION = "12" }
