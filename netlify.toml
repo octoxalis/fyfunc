@@ -5,4 +5,4 @@
 
 # Sharp recommanded Node version for AWS
 [context.production]
-  environment = { NODE_VERSION = "12" }
+  environment = { NODE_VERSION = "14" }
