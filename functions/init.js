@@ -1,4 +1,4 @@
-const JIM_o = require( 'jimp' )
+const JIM_o = require( 'jimp' )  //: trying with Jimp as Sharp can't be bundled by Webpack
 
 exports.handler =
   async event =>
